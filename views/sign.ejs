@@ -1,0 +1,35 @@
+
+<%- include("partials/header"); -%>
+<div class="container login-con">
+<main class="form-signin">
+    
+    <form action="/sign" method="post"> 
+      <h1 class="h3 mb-3 fw-normal"> Sign up</h1>
+      <div class="form-floating">
+        <label for="floatingInput">Name</label>
+        <input type="text" name="name" class="form-control" id="floatingInput" placeholder="Name" >
+        
+      </div>
+      <div class="form-floating">
+        <label for="floatingInput">Email address</label>
+        <input type="email" required class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
+        
+      </div>
+      <div class="form-floating">
+        <label for="floatingPassword">Password</label>
+        <input type="password" required class="form-control" name="password" id="floatingPassword" placeholder="Password">
+       
+      </div>
+      <button class="w-50 btn btn-lg btn-primary mt-1"  type="submit">Sign Up</button>
+      
+      <p class="mt-5 mb-3 text-muted">&copy; 2021–2022</p>
+    </form>
+   
+  </main>
+
+
+</div>
+
+
+  <%- include("partials/footer"); -%>
+

@@ -1,0 +1,352 @@
+.home-img{
+    width: 100%;
+    margin-top: 30px;
+    height: 70vh;
+    position: relative;
+    object-fit: cover;
+}
+.fas{
+    color: white;
+    font-size: 1rem;
+}
+.brand{
+    color: black;
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Carattere', cursive;
+}
+.navbar{
+    background-color: rgb(90, 88, 88);
+ 
+}
+.nav-link{
+    color: white;
+    margin: 0.5rem;
+    font-size: 20px;
+    font-family: 'Koh Santepheap';
+}
+
+.nav-link:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.carousel-item{
+    
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-caption{
+    
+    top: 18rem;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .carousel-item{
+    
+        height: 110vh;
+    }
+
+    .carousel-caption{
+    
+        top: 3rem;
+        text-align: left;
+    }
+    .carousel-caption h1{
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Balsamiq Sans', cursive;
+      
+    }
+    .coursel{
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+}
+  
+.carousel-caption h1{
+    font-weight: bolder;
+    font-size: 3rem;
+    font-family: 'Balsamiq Sans', cursive;
+  
+}
+.coursel{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.card{
+    display: inline-block;
+    margin: 2.5rem 2rem;
+    transition: transform .2s;
+}
+.card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+.compose{
+   
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+.card-title{
+    background-color: rgb(159, 197, 231);
+    padding: 1rem;
+}
+.card-content{
+    background-color: rgb(159, 197, 231);
+    padding: 0.5rem;
+}
+.compose-heading{
+    font-family: 'Koh Santepheap';
+    text-align: center;
+}
+.main-heading{
+ 
+   color: white;
+    text-align: center;
+    font-family: 'Koh Santepheap';
+   
+}
+.post{
+    background-color: grey;
+   
+}
+
+.footer{
+    border-radius: 22px;
+    background-color: #C0C0C0;
+    text-align: center;
+
+}
+.footerr0{
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgb(10, 2, 15);
+}
+
+.footerr1{
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgb(131, 58, 180);
+}
+.footerr2{
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgb(59,89,152);
+}
+.footerr3{
+    font-size: 2rem;
+    padding: 1rem;
+    color: rgb(0,119,181);
+}
+.footerr4{
+    font-size: 2rem;
+    padding: 1rem;
+    color:  #A82400;
+}
+
+.footer-p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+.about{
+    
+    color: rgb(22, 19, 19);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(187, 181, 181);
+}
+.about-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Koh Santepheap';
+}
+.about-para{
+    font-size: 1rem;
+    font-family: 'Koh Santepheap';
+}
+.about-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 225px;
+}
+#skill{
+    color: white;
+    background-color: rgb(187, 181, 181);
+    margin: 1rem;
+}
+.skills {
+    
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .javascript {width: 65%; background-color: #f44336;} /* Red */
+  .java {width: 60%; background-color: #808080;} /* Dark Grey */
+  .Reactjs {width: 80%; background-color: #1ec299;}  
+.NODEJS {width: 50%; background-color: #b42059;}  
+  
+.input-contact{
+    padding: 0.5rem;
+    margin: 1rem;
+    display: block;
+    width: 90%;
+    border-radius: 22px;
+    text-decoration: none;
+    
+}
+.contact{
+    margin: 1rem;
+    background-color: #808080;
+}
+.contact-heading{
+    color: white;
+    text-align: center;
+    font-family: 'Koh Santepheap';
+}
+.contact-btn{
+    text-align: center;
+    margin: auto;
+}
+.Publish{
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #808080;
+}
+.publish-heading{
+    color: white;
+    font-family: 'Koh Santepheap' ;
+    text-align: center;
+}
+.Post{
+    background-color: grey;
+    margin: 2rem;
+    padding: 1rem;
+}
+.post-h{
+    border-radius: 22px;
+    padding: 1rem;
+    margin: 1rem;
+    color: #063053;
+    text-align: center;
+    font-family: 'Koh Santepheap' ;
+    background-color: white;
+}
+.post-p{
+    border-radius: 22px;
+    background-color: white;
+    color: #063053;
+margin: 1rem;
+padding: 1.5rem;
+word-spacing: 10px;
+white-space: pre-wrap;
+
+
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .login-logo{
+      margin: 1rem;
+      border-radius:  150px;;
+      padding: 1.5rem;
+      border: 1px solid black;
+    color: black;
+    font-size: 35px;
+   text-align: center;
+    font-weight: bolder;
+    font-family: 'Carattere', cursive;
+}
+.login-logo:hover{
+    background-color: black;
+    color: white;
+}
+.login-con{
+    margin: 2rem;
+    background-color: grey;
+}
+.login{
+    display:inline;
+}
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+  }
+  .error{
+      margin: 3rem;
+      padding: 2rem;
+      text-align: center;
+  }
+  .error-heading{
+     
+     line-break: 2rem;
+      font-size: 6rem;
+  }
+.error-p{
+    font-size: large;
+
+}
+.error-p2{
+    font-size: larger;
+    color: red;
+}
+
+/*-------review section----*/
+.review{
+    background-color: #808080;
+    margin: 1rem;
+     padding: 1rem;
+
+}
+
+
+.form-floating{
+   
+   align-items: flex-start;
+}
+.input-group-addon{
+    padding: 00.5rem;
+}
+.pinfo{
+    margin: 0.5rem;
+}
+#fh2{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
